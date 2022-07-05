@@ -1,0 +1,259 @@
+@import url('https://fonts.cdnfonts.com/css/ds-digital');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    
+}
+
+div.container {
+    position: relative;
+    width: 280px;
+    height: 425px;
+    background: rgb(38, 39, 39);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 60px;
+    border-radius: 20px;
+    border-top-right-radius: 31% 45px;
+    border-top-left-radius: 31% 45px;
+    border-bottom-right-radius: 31% 45px;
+    border-bottom-left-radius: 31% 45px;
+    padding-bottom: 70px;
+}
+
+.miniScreen {
+    position: relative;
+    width: 270px;
+    height: 40px;
+    margin-top: -15px;
+    margin-bottom: 25px;
+    display: flex;
+    margin-left: 50px;
+    
+    
+}
+
+.boxLeft {
+    
+    
+    width: 115px;
+    height: 35px;
+    border-radius: 10px;
+    display: flex;
+    padding-right: px;
+    border: 3px groove rgb(30, 31, 31)
+
+}
+
+.boxLeftLine {
+    background: black;
+    border-right: 1px solid rgba(124, 124, 124, 0.596);
+    width: 100%;
+    height: 100%;
+    
+}
+
+.boxLeftLine:last-child {
+    border-right: none;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+.boxLeftLine:first-child {
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+
+.boxRight {
+    position: relative;
+    
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-right: -24px;
+    justify-content: center;
+}
+
+.boxRight > h1 {
+    font: bold 10pt Arial;
+    margin-left: 15px;
+    color: white;
+}
+
+.boxRight > p {
+    font: bold 5pt Arial;
+    text-transform: uppercase;
+    margin-left: 15px;
+    color: white;
+}
+
+
+.numbers {
+    position: relative;
+    height: 200px;
+    width: 275px;
+    display: grid;
+    margin-top: 10px;
+    justify-content: center;
+    
+}
+.button:active {
+    border: 4px groove rgb(30, 31, 31);
+    box-shadow: 0.5px 0.5px 0 0.2px rgb(17, 17, 17);
+    cursor: pointer;
+    
+}
+
+
+.button {
+    
+    background: rgb(38, 39, 39);;
+    width: 50px;
+    height: 40px;
+    margin: 2px;
+    border-radius: 10px;
+    color: white; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px groove rgb(30, 31, 31);
+    font: extra-expanded 15pt Arial;
+    
+}
+
+
+.containerScreen {
+    display: flex;
+    
+
+    align-items: center;
+    justify-content: center;
+
+    width: 240px;
+    height: 70px;
+    
+    background-image: radial-gradient(rgba(43, 43, 43, 0.336), rgba(56, 56, 56, 0.199), rgba(7, 7, 7, 0.781));
+    -moz-border-radius: 50px / 40px;
+    -webkit-border-radius: 50px / 40px;
+    border-radius: 50px / 40px;
+
+}
+.screen {
+    
+    font: bold 23pt Arial;
+    background: rgb(180, 196, 167);
+    width: 180px;
+    height: 40px;
+    display: flex;
+    justify-content: right;
+    font-family: 'DS-Digital', sans-serif;
+    align-items: center;
+    border-radius: 9px;
+    border: 4px groove rgb(30, 31, 31);
+}
+
+
+.memoryMPlus {
+    position: absolute;
+    left: 55px;
+    font-size: 13pt;
+    top: 80px;
+}
+
+.onCe {
+    border-radius: 100%;
+    background: rgb(53, 192, 162);
+    padding-top: 22px;
+    padding-bottom: 23px;
+    display: flex;
+    flex-direction: column;
+    border: 3px groove rgb(30, 31, 31);
+    width: 50px;
+    height: 40px;
+    margin: 2px;
+    color: white; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px groove rgb(30, 31, 31);
+    font: extra-expanded 15pt Arial;
+    
+}
+
+.onCe > p:first-child {
+    border-bottom: 2px white solid;
+    margin-top: 5px;
+}
+
+.onCe > p:last-child {
+    margin-bottom: 5px;
+}
+
+.onCe > p {
+    font: bold 10pt Arial;
+}
+
+.buttonMem {
+    background: rgb(199, 189, 46);
+    width: 100%;
+    height: 25px;
+    border-radius: 41%;
+    border: 3px groove rgb(30, 31, 31);
+    
+}
+
+.buttonMem > p {
+    color: white;
+    margin-top: -30px;
+    font: normal 10pt Arial;
+}
+
+.buttonMem:active {
+    border: 4px groove rgb(30, 31, 31);
+    box-shadow: 0.5px 0.5px 0 0.2px rgb(17, 17, 17);
+    cursor: pointer;
+}
+
+.squareRoot {
+    background-size: 20px;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAAA5klEQVRIie2TMQ4BQRSGZ6k0si2tKBRK0agkdCpxBQfQiBuIAygcQZyAiIhW4hpKolHg0/zFs43Y3Ylm/2rmvd3ve5PdcS6LzwB54MBnDvaZXEJH3znXinoTMg0Jjpp6mBrUwLuCn4GCD8FWgrEPeEPwKxD6EKwkmPqAV4AHcAfKcQD2v94DuUh/od4i7oTRi9MzvZImfwDVWAIDG0mwNrWZastEcMFC4CZgHSgCF+2biQWSzAWcAxOtN6nAJagBL53kLEEnNYEka/PBT0CQtqBnBINf3/86je7BTtt2EATPXyVZ/ps3fnEn8LgVHIEAAAAASUVORK5CYII=");
+    color: white;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    background-position-x: 10px;
+    background-position-y: 6px;
+}
+
+.fa-equals {
+    font-size: 25pt;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.sectionUp {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(rgba(30, 31, 31, 0.233), rgba(0, 0, 0, 0.274));
+    width: 100%;
+    height: 33%;
+    border-bottom-right-radius: 31% 10px;
+    border-bottom-left-radius: 31% 10px;
+}
+
+
+
+.off {
+    font-size: 13pt;
+}
